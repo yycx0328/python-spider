@@ -15,6 +15,7 @@ def get_list_agent(_group):
     return list_agent
 
 
+# 从指定网址爬去当下比较流行的浏览器的User-Agent
 def main():
     try:
         url = 'http://www.jsons.cn/useragent/'
