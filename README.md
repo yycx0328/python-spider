@@ -7,5 +7,5 @@
 
 为避免不停的请求别人的网站，比较合理的做法是先将爬到的数据下载下来，保存在本地文件中，这样同时避免了缓存中的数据堆积太多，然后再解析下载下来的本地文件。<br />
 
-user_agent.py文件是用于从http://www.jsons.cn/useragent/网站爬取当前比较流行的浏览器的User-Agent，并分别将PC端User-Agent和移动端User-Agent保存至user_agent.cfg配置文件中；<br />
+user_agent.py文件是用于从http://www.jsons.cn/useragent/ 网站爬取当前比较流行的浏览器的User-Agent，并分别将PC端User-Agent和移动端User-Agent保存至user_agent.cfg配置文件中；<br />
 未完待续...
